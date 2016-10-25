@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700italic,400);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Niconne|Open+Sans);
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 45px;
+	line-height: 125%;
+	font-family: 'Niconne', cursive;
+	padding:40px;
+}
+h2{
+	font-family: 'Niconne', cursive;
+	font-size: 35px;
+	line-height: 150%;
+	text-align: right;
+    position: relative;
+	padding: 0 0 0 5px;
+	border:1px solid black;
+
+	
+}
+body{
+	background-color:#C09560;
+	padding:2%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color:#FAFAFA;
+	text-align: justify;
+    width:100%; 
+}
+
+ 
+    #section1{
+	float: left;
+	background-color: #333333;
+	width: 32.5%;
+	margin:1% 1%;
+	padding: 1%;
+	border: 1px solid black;
+	
+
+	
+	
+}
+#section2{
+	float:left;
+	background-color: #333333;
+	width: 32.5%;
+	margin:1% auto;
+	padding: 1%;
+	border: 1px solid black;
+
+}
+#section3{
+	float: right;
+	background-color: #333333;
+	width: 32.5%;
+	margin:1% auto;
+    padding:1%;
+	border: 1px solid black;
+	
+	
+}
+
+/********** Large devices only **********/
+@media (min-width:992px) and (max-width:1232px) {
+ #section1 {
+    width:32.5%;
+    float: left;
+    border: 1px solid black;
+    height: auto;
+    margin:1% 1%;
+}
+#section2{
+    width:32.5%;
+    float:left;
+    border: 1px solid black;
+    height: auto;
+    margin:1% auto;
+
+}
+#section3 {
+    width:32.5%;
+    float: right;
+    border: 1px solid black;
+    height: auto;
+    margin:1% auto;
+}
+}
+ 
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#section1 {
+    width:49%;
+    float: left;
+    border: 1px solid black;
+    height: auto;
+    margin:2% auto ;
+    font-size: 80%;
+}
+#section2{
+	width: 49%;
+	float: right;
+	border: 1px solid black;
+	height: auto;
+    margin:2% auto;
+	font-size: 80%;
+}
+ #section3 {
+ 	width: 100%;
+ 	float: left;
+ 	border:1px solid black;
+    font-size: 80%;
+    height: auto;
+    margin:0 auto;
+  
+ }
+}
+  
+  /********** Small devices only **********/
+@media (min-width: 144px) and (max-width: 767px){
+#section1 {
+    width:100%;
+    padding:2%;
+    margin: 2% 0;
+    font-size: 80%;
+    
+}
+#section2{
+	width:100%;
+	padding:2%;
+    margin: 2% 0;
+    font-size: 80%;
+	
+}
+ #section3 {
+ 	width:100%;
+ 	padding:2%;
+    margin: 2% 0;
+   font-size: 80%;
+ 	
+ 	
+ }
+}
